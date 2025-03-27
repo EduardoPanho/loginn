@@ -3,7 +3,8 @@
     height: 70vh;
     display: flex;
 
-    background-color: rgb(0, 255, 21);
+    background-color: rgb(44, 0, 167);
+    ;
 
 
     position: relative;
@@ -21,7 +22,7 @@
   }
 
   .login-area {
-    width: 40%;
+    width: 10%;
     background-color: rgb(0, 255, 21);
     border-radius: 3%;
     display: flex;
@@ -43,13 +44,306 @@
     background-color: rgb(34, 174, 255);
   }
 
+  .title-div {
+    font-family: "Akatab", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
   .login-area {
     width: 40%;
-    background-color: rgb(0, 255, 21);
-    border-radius: 3%;
+    background-color: rgb(44, 0, 167);
+    border-radius: 10%;
   }
 
   #login-group {
-    display: flex;
     flex-direction: column;
+  }
+
+  .name-site {
+    position: absolute;
+    top: 6vh;
+    left: 10vh;
+    color: white;
+    text-shadow: 6px 6px 12px #47668b, -6px -6px 12px #ffffff;
+
+    font-family: "Akatab", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .title-div {
+    position: relative;
+    width: 100%;
+    height: 30%;
+    background-color: rgba(0, 0, 0, 0)
+  }
+
+  .title-div h1 {
+    position: absolute;
+    top: 6vh;
+    left: 5vh;
+    color: white;
+    text-shadow: 6px 6px 12px #31205a, -6px -6px 12px #a18cff;
+  }
+
+  .e-mail-div {
+    position: relative;
+    width: 100%;
+    height: 10%;
+    background-color: rgba(49, 1, 182, 0);
+    border-bottom: 1px solid white;
+  }
+
+  .e-mail-div i {
+    position: absolute;
+    top: 2vh;
+    left: 5vh;
+    color: white;
+  }
+
+  .password-div {
+    position: relative;
+    width: 100%;
+    height: 10%;
+    background-color: rgba(49, 1, 182, 0);
+    border-bottom: 1px solid white;
+  }
+
+
+  .password-div i {
+    position: absolute;
+    top: 2vh;
+    left: 5vh;
+    color: white;
+  }
+
+  .password-div {
+    width: 85%;
+    background-color: rgba(0, 255, 21, 0);
+    display: flex;
+    flex-direction: row;
+  }
+
+  .eye-button i {
+    position: absolute;
+    top: 1.5vh;
+    left: 1vh;
+  }
+
+  .eye-button {
+    position: absolute;
+    top: 1vh;
+    left: 42vh;
+
+    height: 5vh;
+    width: 5vh;
+
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff00;
+
+    border: none;
+
+    cursor: pointer;
+  }
+
+  .eye-button:hover {
+    transform: scale(1.1);
+  }
+
+  .eye-button {
+    transition: 0.1s ease-in-out;
+  }
+
+  .forgout-password-div {
+    position: relative;
+    width: 100%;
+    height: 7%;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: 1px solid white;
+  }
+
+
+  .forgot-password-div h6 {
+    position: absolute;
+    top: -3vh;
+    left: 0vh;
+    color: rgb(255, 255, 255);
+  }
+
+  .forgot-button {
+    position: absolute;
+    top: 36vh;
+    left: 77vh;
+
+    height: 2vh;
+    width: 15vh;
+
+    cursor: pointer;
+    border: none;
+
+    background-color: rgba(255, 255, 255, 0);
+
+    font-family: "Akatab", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .forgot-button:hover {
+    transform: scale(1.1);
+  }
+
+  .forgot-button {
+    transition: 0.1s ease-in-out;
+  }
+
+  .button-enter {
+    position: absolute;
+    top: 42vh;
+    left: 77vh;
+
+    height: 7vh;
+    width: 40vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button-enter {
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #31205a, -6px -6px 12px #a18cff;
+
+    font-family: "Akatab", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  .button-enter:hover {
+    border: 1px solid white;
+  }
+
+  .button-enter:active {
+    box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
+  }
+
+  .button-enter h2 {
+    color: #acacac;
+    height: 25px;
+  }
+
+  .button-enter:hover {
+    transform: scale(1.1);
+  }
+
+  .or-enter {
+    position: absolute;
+    top: 55vh;
+    left: 82vh;
+  }
+
+
+  #or-button {
+    position: relative;
+
+    height: 9vh;
+    width: 1vh;
+
+    justify-content: space-between;
+
+    justify-content: center;
+    align-items: center;
+
+    flex: row;
+  }
+
+  #or-button {
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 50%;
+    background: #e8e8e8;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #31205a, -6px -6px 12px #a18cff;
+  }
+
+  #or-button:hover {
+    border: 1px solid white;
+  }
+
+  #or-button:active {
+    box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
+  }
+
+  #or-button:hover {
+    transform: scale(1.1);
+  }
+
+  .button-google i,
+  .button-apple i,
+  .button-microsoft i {
+    position: absolute;
+    top: 3.2vh;
+    left: 3.4vh;
+  }
+
+  .create-accont {
+
+    width: 20vw;
+    height: 3vh;
+    background-color: #6943c000;
+
+    flex-direction: row;
+
+    font-family: "Akatab", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+
+  .create-accont h6 {
+    color: rgb(255, 255, 255)
+  }
+
+  .create-accont h5 {
+    color: rgb(255, 255, 255)
+  }
+
+
+  .create{
+    height: 8vh;
+    width: 8vw;
+
+    border: none;
+
+    position: absolute;
+    top: 9.5vh;
+    left: 14vh;
+    cursor: pointer;
+
+    background-color: rgba(255, 255, 255, 0);
+
+    font-family: "Akatab", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+
+    text-decoration: underline white;
+  }
+
+  .create:hover {
+    transform: scale(1.1);
+  }
+
+  .create {
+    transition: 0.1s ease-in-out;
   }
