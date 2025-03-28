@@ -2,23 +2,23 @@
     width: 60vw;
     height: 70vh;
     display: flex;
-
-    background-color: rgb(44, 0, 167);
-    ;
-
+    background-color: rgb(59, 62, 165);
 
     position: relative;
     top: 14vh;
-    left: 40vh;
+    left: 39vh;
     border-radius: 10%;
   }
 
   .img-login {
     width: 60%;
-    background-color: rgb(0, 128, 255);
+
     border-radius: 10%;
 
     box-shadow: inset 0 10px 8px -10px rgb(255, 255, 255);
+
+    background-image: url(../Assets/Login-img-fundo.png);
+    background-size: 100% 100%;
   }
 
   .login-area {
@@ -28,7 +28,6 @@
     display: flex;
     flex-direction: column;
   }
-
 
   #text-login {
     width: 100%;
@@ -52,8 +51,10 @@
 
   .login-area {
     width: 40%;
-    background-color: rgb(44, 0, 167);
+    background-color: rgb(59, 62, 165);
     border-radius: 10%;
+    display: flex;
+    align-items: center;
   }
 
   #login-group {
@@ -89,59 +90,49 @@
 
   .e-mail-div {
     position: relative;
-    width: 100%;
+    width: 82%;
     height: 10%;
-    background-color: rgba(49, 1, 182, 0);
+    background-color: rgba(255, 0, 0, 0);
     border-bottom: 1px solid white;
+    align-items: center;
+
+    display: flex;
+    align-items: center;
   }
 
   .e-mail-div i {
-    position: absolute;
-    top: 2vh;
-    left: 5vh;
+    position: relative;
     color: white;
   }
 
   .password-div {
     position: relative;
-    width: 100%;
+    width: 82%;
     height: 10%;
     background-color: rgba(49, 1, 182, 0);
     border-bottom: 1px solid white;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between
   }
 
 
   .password-div i {
-    position: absolute;
-    top: 2vh;
-    left: 5vh;
+    position: relative;
     color: white;
   }
 
-  .password-div {
-    width: 85%;
-    background-color: rgba(0, 255, 21, 0);
-    display: flex;
-    flex-direction: row;
-  }
-
-  .eye-button i {
-    position: absolute;
-    top: 1.5vh;
-    left: 1vh;
-  }
-
   .eye-button {
-    position: absolute;
-    top: 1vh;
-    left: 42vh;
+    position: relative;
 
-    height: 5vh;
-    width: 5vh;
+    height: 3vh;
+    width: 3vh;
 
     justify-content: center;
     align-items: center;
-    background-color: #ffffff00;
+    background-color: #ff050500;
 
     border: none;
 
@@ -167,8 +158,8 @@
 
   .forgot-password-div h6 {
     position: absolute;
-    top: -3vh;
-    left: 0vh;
+    top: -2vh;
+    left: 1vh;
     color: rgb(255, 255, 255);
   }
 
@@ -201,7 +192,7 @@
   .button-enter {
     position: absolute;
     top: 42vh;
-    left: 77vh;
+    left: 77.5vh;
 
     height: 7vh;
     width: 40vh;
@@ -220,7 +211,7 @@
     cursor: pointer;
     border: 1px solid #e8e8e8;
     transition: all 0.3s;
-    box-shadow: 6px 6px 12px #31205a, -6px -6px 12px #a18cff;
+    box-shadow: 6px 6px 12px #31205a, -6px -6px 12px #7252ff;
 
     font-family: "Akatab", sans-serif;
     font-weight: 800;
@@ -247,14 +238,14 @@
   .or-enter {
     position: absolute;
     top: 55vh;
-    left: 82vh;
+    left: 86vh;
   }
 
 
   #or-button {
     position: relative;
 
-    height: 9vh;
+    height: 6.8vh;
     width: 1vh;
 
     justify-content: space-between;
@@ -274,7 +265,7 @@
     cursor: pointer;
     border: 1px solid #e8e8e8;
     transition: all 0.3s;
-    box-shadow: 6px 6px 12px #31205a, -6px -6px 12px #a18cff;
+    box-shadow: 6px 6px 12px #31205a, -6px -6px 12px #7a5dff;
   }
 
   #or-button:hover {
@@ -293,8 +284,8 @@
   .button-apple i,
   .button-microsoft i {
     position: absolute;
-    top: 3.2vh;
-    left: 3.4vh;
+    top: 2.4vh;
+    left: 2.5vh;
   }
 
   .create-accont {
@@ -320,15 +311,15 @@
   }
 
 
-  .create{
+  .create {
     height: 8vh;
     width: 8vw;
 
     border: none;
 
     position: absolute;
-    top: 9.5vh;
-    left: 14vh;
+    top: 5.9vh;
+    left: 9vh;
     cursor: pointer;
 
     background-color: rgba(255, 255, 255, 0);
