@@ -1,352 +1,232 @@
-  .secao-login {
-    width: 60vw;
-    height: 70vh;
-    display: flex;
-    background-color: rgb(59, 62, 165);
-
-    position: relative;
-    top: 14vh;
-    left: 39vh;
-    border-radius: 10%;
-  }
-
-  .img-login {
-    width: 60%;
-
-    border-radius: 10%;
-
-    box-shadow: inset 0 10px 8px -10px rgb(255, 255, 255);
-
-    background-image: url(../Assets/Login-img-fundo.png);
-    background-size: 100% 100%;
-  }
-
-  .login-area {
-    width: 10%;
-    background-color: rgb(0, 255, 21);
-    border-radius: 3%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  #text-login {
-    width: 100%;
-    height: 25%;
-    position: relative;
-    background-color: rgb(34, 174, 255);
-  }
-
-  #login-div {
-    width: 100%;
-    height: 25%;
-    position: relative;
-    background-color: rgb(34, 174, 255);
-  }
-
-  .title-div {
-    font-family: "Akatab", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-  }
-
-  .login-area {
-    width: 40%;
-    background-color: rgb(59, 62, 165);
-    border-radius: 10%;
-    display: flex;
-    align-items: center;
-  }
-
-  #login-group {
-    flex-direction: column;
-  }
-
-  .name-site {
-    position: absolute;
-    top: 6vh;
-    left: 10vh;
-    color: white;
-    text-shadow: 6px 6px 12px #47668b, -6px -6px 12px #ffffff;
-
-    font-family: "Akatab", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-  }
-
-  .title-div {
-    position: relative;
-    width: 100%;
-    height: 30%;
-    background-color: rgba(0, 0, 0, 0)
-  }
-
-  .title-div h1 {
-    position: absolute;
-    top: 6vh;
-    left: 5vh;
-    color: white;
-    text-shadow: 6px 6px 12px #31205a, -6px -6px 12px #a18cff;
-  }
-
-  .e-mail-div {
-    position: relative;
-    width: 82%;
-    height: 10%;
-    background-color: rgba(255, 0, 0, 0);
-    border-bottom: 1px solid white;
-    align-items: center;
-
-    display: flex;
-    align-items: center;
-  }
-
-  .e-mail-div i {
-    position: relative;
-    color: white;
-  }
-
-  .password-div {
-    position: relative;
-    width: 82%;
-    height: 10%;
-    background-color: rgba(49, 1, 182, 0);
-    border-bottom: 1px solid white;
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between
-  }
-
-
-  .password-div i {
-    position: relative;
-    color: white;
-  }
-
-  .eye-button {
-    position: relative;
-
-    height: 3vh;
-    width: 3vh;
-
-    justify-content: center;
-    align-items: center;
-    background-color: #ff050500;
-
-    border: none;
-
-    cursor: pointer;
-  }
-
-  .eye-button:hover {
-    transform: scale(1.1);
-  }
-
-  .eye-button {
-    transition: 0.1s ease-in-out;
-  }
-
-  .forgout-password-div {
-    position: relative;
-    width: 100%;
-    height: 7%;
-    background-color: rgba(255, 255, 255, 0);
-    border-bottom: 1px solid white;
-  }
-
-
-  .forgot-password-div h6 {
-    position: absolute;
-    top: -2vh;
-    left: 1vh;
-    color: rgb(255, 255, 255);
-  }
-
-  .forgot-button {
-    position: absolute;
-    top: 36vh;
-    left: 77vh;
-
-    height: 2vh;
-    width: 15vh;
-
-    cursor: pointer;
-    border: none;
-
-    background-color: rgba(255, 255, 255, 0);
-
-    font-family: "Akatab", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-  }
-
-  .forgot-button:hover {
-    transform: scale(1.1);
-  }
-
-  .forgot-button {
-    transition: 0.1s ease-in-out;
-  }
-
-  .button-enter {
-    position: absolute;
-    top: 42vh;
-    left: 77.5vh;
-
-    height: 7vh;
-    width: 40vh;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .button-enter {
-    color: #090909;
-    padding: 0.7em 1.7em;
-    font-size: 18px;
-    border-radius: 0.5em;
-    background: #e8e8e8;
-    cursor: pointer;
-    border: 1px solid #e8e8e8;
-    transition: all 0.3s;
-    box-shadow: 6px 6px 12px #31205a, -6px -6px 12px #7252ff;
-
-    font-family: "Akatab", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-  }
-
-  .button-enter:hover {
-    border: 1px solid white;
-  }
-
-  .button-enter:active {
-    box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
-  }
-
-  .button-enter h2 {
-    color: #acacac;
-    height: 25px;
-  }
-
-  .button-enter:hover {
-    transform: scale(1.1);
-  }
-
-  .or-enter {
-    position: absolute;
-    top: 55vh;
-    left: 86vh;
-  }
-
-
-  #or-button {
-    position: relative;
-
-    height: 6.8vh;
-    width: 1vh;
-
-    justify-content: space-between;
-
-    justify-content: center;
-    align-items: center;
-
-    flex: row;
-  }
-
-  #or-button {
-    color: #090909;
-    padding: 0.7em 1.7em;
-    font-size: 18px;
-    border-radius: 50%;
-    background: #e8e8e8;
-    cursor: pointer;
-    border: 1px solid #e8e8e8;
-    transition: all 0.3s;
-    box-shadow: 6px 6px 12px #31205a, -6px -6px 12px #7a5dff;
-  }
-
-  #or-button:hover {
-    border: 1px solid white;
-  }
-
-  #or-button:active {
-    box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
-  }
-
-  #or-button:hover {
-    transform: scale(1.1);
-  }
-
-  .button-google i,
-  .button-apple i,
-  .button-microsoft i {
-    position: absolute;
-    top: 2.4vh;
-    left: 2.5vh;
-  }
-
-  .create-accont {
-
-    width: 20vw;
-    height: 3vh;
-    background-color: #6943c000;
-
-    flex-direction: row;
-
-    font-family: "Akatab", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-  }
-
-
-  .create-accont h6 {
-    color: rgb(255, 255, 255)
-  }
-
-  .create-accont h5 {
-    color: rgb(255, 255, 255)
-  }
-
-
-  .create {
-    height: 8vh;
-    width: 8vw;
-
-    border: none;
-
-    position: absolute;
-    top: 5.9vh;
-    left: 9vh;
-    cursor: pointer;
-
-    background-color: rgba(255, 255, 255, 0);
-
-    font-family: "Akatab", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-
-    text-decoration: underline white;
-  }
-
-  .create:hover {
-    transform: scale(1.1);
-  }
-
-  .create {
-    transition: 0.1s ease-in-out;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
+.secao-login {
+  width: 60vw;
+  height: 70vh;
+  display: flex;
+  background: rgb(59, 62, 165);
+  position: relative;
+  top: 14vh;
+  left: 39vh;
+  border-radius: 10%;
+}
+
+.img-login {
+  width: 60%;
+  border-radius: 10%;
+  box-shadow: inset 0 10px 8px -10px white;
+  background: url(../Assets/Login-img-fundo.png) center/cover;
+}
+
+.login-area {
+  width: 40%;
+  background: rgb(59, 62, 165);
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#text-login,
+#login-div {
+  width: 100%;
+  height: 25%;
+  position: relative;
+  background: rgb(34, 174, 255);
+}
+
+.title-div {
+  font-family: "Akatab", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  width: 100%;
+  height: 30%;
+  background-color: rgba(255, 255, 255, 0);
+  margin-left: 5vh;
+}
+
+.title-div h1 {
+  position: relative;
+  color: white;
+  text-shadow: 6px 6px 12px #31205a, -6px -6px 12px #a18cff;
+}
+
+.e-mail-div,
+.password-div {
+  position: relative;
+  width: 82%;
+  height: 10%;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.password-div {
+  flex-direction: row;
+}
+
+.eye-button {
+  height: 3vh;
+  width: 3vh;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+}
+
+.eye-button:hover,
+.forgot-button:hover,
+.button-enter:hover,
+.create:hover,
+#button-or:hover {
+  transform: scale(1.1);
+}
+
+.forgot-password-div {
+  justify-content: center;
+  align-items: center;
+}
+
+.forgot-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14vw;
+  height: 4vh;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: "Akatab", sans-serif;
+  font-weight: 800;
+  color: white;
+  padding: 2vh;
+}
+
+.forgot-button h6 {
+  margin: 0;
+  text-align: center;
+}
+
+.forgot-button {
+  width: 9vw;
+  height: 2vh;
+}
+
+.button-enter {
+  width: 80%;
+  flex-direction: column;
+  position: relative;
+  cursor: pointer;
+  border: none;
+  font-family: "Akatab", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  transition: 0.1s ease-in-out;
+}
+
+.button-enter {
+  height: 7vh;
+  width: 40vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #9e9e9e;
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  box-shadow: 6px 6px 12px #31205a, -6px -6px 12px #7252ff;
+  border: 1px solid #e8e8e8;
+}
+
+.button-enter:active {
+  box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px white;
+}
+
+#row-buttons-or {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.button-or {
+  height: 6vh;
+  width: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  box-shadow: 6px 6px 12px #31205a, -6px -6px 12px #7252ff;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.button-or:hover {
+  transform: scale(1.1);
+  border: 1px solid white;
+}
+
+.button-or:active {
+  box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px white;
+}
+
+.create-accont {
+  width: 20vw;
+  height: 3vh;
+  background: transparent;
+  font-family: "Akatab", sans-serif;
+  font-weight: 800;
+}
+
+.create {
+  height: 8vh;
+  width: 8vw;
+  border: none;
+  position: relative;
+  cursor: pointer;
+  background: transparent;
+  text-decoration: underline white;
+}
+
+.e-mail-div i,
+.password-div i,
+.forgot-password-div i {
+  color: white;
+}
+
+.create-account-button {
+  height: 3vh;
+  width: 26vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #9e9e9e;
+  padding: 0.7em 1.7em;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: #e8e8e8;
+  box-shadow: 6px 6px 12px #31205a, -6px -6px 12px #7252ff;
+  border: 1px solid #e8e8e8;
+  font-family: "Akatab", sans-serif;
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+  margin: 4vh;
+}
+
+.create-account-button:hover {
+  border: 1px solid white;
+  transform: scale(1.1);
+}
+
+.create-account-button:active {
+  box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px white;
+}
