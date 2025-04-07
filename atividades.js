@@ -68,20 +68,30 @@ if (a + b) {
 
 
 
+for (let volta = 0; volta <50; volta++) {
+    console.log(volta + 1);
+}
+
+let volta= 0;
+while(volta <50) {
+    volta++;
+    console.log(volta);
+}
 
 
 
 
 
 
-let a = 10;
+for (let volta = 50; volta >0; volta --) {
+    console.log(volta);
+}
 
-let b = 50;
+let volta = 50;
 
-let c = 4;
-
-if (10 > 50) {
-    console.log("")
+while(volta >1) {
+    volta --;
+    console.log(volta);
 }
 
 
@@ -90,6 +100,35 @@ if (10 > 50) {
 
 
 
+
+
+let tabuada = 5;
+let vezes = 1;
+
+while(vezes <=10){
+    console.log(tabuada * vezes);
+    vezes++;
+}
+
+
+
+
+
+let n_escolhido = 29;
+for (let valor_par = 0; valor_par <= n_escolhido; valor_par = valor_par + 2){
+    console.log(valor_par)
+}
+
+
+
+
+let volta = 15;
+let fatorial = 1;
+while(volta > 0){
+    fatorial = fatorial * volta;
+    volta--;
+}
+console.log(fatorial);
 
 
 
